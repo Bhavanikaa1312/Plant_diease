@@ -1,0 +1,101 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+} body {
+  font-family: Arial, sans-serif;
+  background-color: #f4e8e8; /* Soft green representing freshness */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #ffffff; /* White background for the login form */
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  text-align: center;
+}
+
+h2 {
+  color: #4CAF50; /* Green color related to plant care and growth */
+}
+
+input[type="email"], input[type="password"], input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50; /* Green color related to plant care */
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049; /* Darker shade of green on hover */
+}
+
+.signup-link {
+  color: #4CAF50; /* Green color for sign up link */
+  text-decoration: none;
+}
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #8CC084; /* Green color inspired by nature */
+}
+
+.signup-form {
+  width: 400px;
+  padding: 40px;
+  background-color: #F3F0EA; /* Light beige color inspired by soil */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signup-heading {
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.btn-signup {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #5D946E; /* Dark green color inspired by leaves */
+  color: #fff;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
